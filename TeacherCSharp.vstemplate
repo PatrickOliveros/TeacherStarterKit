@@ -1,0 +1,75 @@
+<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Teacher Starter Kit (C#)</Name>
+    <Description>Starter Kit for teachers to manage students, courses, and grades</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Teacher</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>venus.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="TeacherCSharp.csproj" File="TeacherCSharp.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AboutBox.cs">AboutBox.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AboutBox.Designer.cs">AboutBox.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AboutBox.resx">AboutBox.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="app.config">app.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Courses.cs">Courses.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Courses.Designer.cs">Courses.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Courses.resx">Courses.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="GradesByAssessment.rdlc">GradesByAssessment.rdlc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="GradesByStudent.rdlc">GradesByStudent.rdlc</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ListItem.cs">ListItem.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs">Main.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main.Designer.cs">Main.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main.resx">Main.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <Folder Name="DataSources" TargetFolderName="DataSources"/>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReportPreview.cs">ReportPreview.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReportPreview.Designer.cs">ReportPreview.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReportPreview.resx">ReportPreview.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SelectStudents.cs">SelectStudents.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SelectStudents.Designer.cs">SelectStudents.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SelectStudents.resx">SelectStudents.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Students.cs">Students.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Students.Designer.cs">Students.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Students.resx">Students.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Teachers.mdf">Teachers.mdf</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Teachers_log.ldf">Teachers_log.ldf</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TeachersDataSet.xsd">TeachersDataSet.xsd</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TeachersDataSet.Designer.cs">TeachersDataSet.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TeachersDataSet.cs">TeachersDataSet.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="TeachersDataSet.xsc">TeachersDataSet.xsc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="TeachersDataSet.xss">TeachersDataSet.xss</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="EULA.rtf">EULA.rtf</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="teacher.snk">teacher.snk</ProjectItem>
+      <Folder Name="Documentation">
+		  <ProjectItem ReplaceParameters="true" OpenInWebBrowser="true" TargetFileName="Overview.htm">Overview.htm</ProjectItem>
+        <Folder Name="Overview_files">
+          <ProjectItem ReplaceParameters="false" TargetFileName="image001.jpg">image001.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="image002.jpg">image002.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="image003.jpg">image003.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="image004.jpg">image004.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="image005.jpg">image005.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="image006.jpg">image006.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="image007.jpg">image007.jpg</ProjectItem>
+	        <ProjectItem ReplaceParameters="false" TargetFileName="image008.jpg">image008.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="sidebar.gif">sidebar.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="top.gif">top.gif</ProjectItem>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
